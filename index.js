@@ -19,16 +19,16 @@ const divSum = a / b;
 
 const choice = readlineSync.question(": add, sub, mul, div ");
     if(choice.toLowerCase() == 'add') {
-    console.log(a + " + " + b + " = " + addSum);
+    console.log("The result is:  " + a + " + " + b + " = " + addSum);
 
     } else if(choice.toLowerCase() == 'sub') {
-    console.log(a + " - " + b + " = " + subSum);
+    console.log("The result is:  " + a + " - " + b + " = " + subSum);
 
     } else if(choice.toLowerCase() == 'mul') {
-    console.log(a + " * " + b + " = " + multSum);
+    console.log("The result is:  " + a + " * " + b + " = " + multSum);
 
     } else if(choice.toLowerCase() == 'div') {
-    console.log(a + " / " + b + " = " + divSum);
+    console.log("The result is:  " + a + " / " + b + " = " + divSum);
     
     } else {
     console.log("Not a number");
